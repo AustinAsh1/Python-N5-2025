@@ -1,4 +1,5 @@
-cost = float(input("Enter cost of the item in £ and p: "))
-noPounds = int(cost)+1
-print("You will need £"+str(noPounds))
-print("And you will get "+str(round(noPounds-cost,2))+"p change")
+password = input("Please enter your password: ")
+while len(password) < 8:
+    print("Error,8 Character Minimum, Please Try Again.")
+    password = input("Please enter your password: ")
+print("Password accepted.")
