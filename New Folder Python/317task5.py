@@ -6,4 +6,4 @@
 # If each pizza costs £12, calculate the total cost
 # Display the number of pizzas needed and the total cost
 
-
+number of students = 24
